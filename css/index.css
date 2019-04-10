@@ -173,7 +173,6 @@ body {
   justify-content: center;
   height: 250px;
   margin: auto;
-  border-radius: 15px;
   align-items: center;
   background-color: aqua;
 }
@@ -210,22 +209,21 @@ body {
   justify-content: center;
   background-color: aqua;
   padding: 20px 0;
-  border-radius: 15px;
 }
 .container .projectcardscontainer {
   padding: 20px 0;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  background-color: aqua;
 }
 .container .projectcards {
   text-align: center;
-  margin: 15px;
+  margin: 10px;
   padding: 15px;
-  width: 45%;
-  background-color: lightgrey;
-  box-shadow: 5px 5px black;
+  width: 48%;
+  background-color: AliceBlue;
   border-radius: 5px;
 }
 .container .projectcards img {
@@ -233,22 +231,23 @@ body {
   height: 300px;
   padding-top: 15px;
 }
-.container .contactmebanner {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: aqua;
-  padding: 20px 0;
-  border-radius: 15px;
-}
-.container .contactinfo {
-  padding: 15px 0 25px 0;
-  display: flex;
-  justify-content: space-evenly;
-}
-.container .contactbutton {
-  padding: 25px;
-  font-size: 25px;
-  background-color: DeepSkyBlue;
-  border-radius: 15px;
-}
+/*
+  .contactmebanner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding: 20px 0;
+    border-radius: 15px;
+  }
+  .contactinfo {
+    padding: 15px 0 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .contactbutton {
+    padding: 25px;
+    font-size: 25px;
+    background-color: DeepSkyBlue;
+    border-radius: 15px;
+  } */
